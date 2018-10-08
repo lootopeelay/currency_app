@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ExchangeApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+<%= javascript_pack_tag 'exchangeApp/index' %>
+<%= stylesheet_pack_tag 'exchangeApp/assets/stylesheets/app' %>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css"></link>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
